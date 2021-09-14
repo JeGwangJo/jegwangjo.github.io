@@ -230,7 +230,7 @@ body {font-family:'Open Sans', 'Noto Sans KR', sans-serif;color:#fff;}
 
     #full .b_profile li {display:none;line-height:30px;transition:0.3s;}
     
-    #full .profile_txt {flex:1;width:auto;overflow-y: scroll !important;-webkit-overflow-scrolling: touch;}
+    #full .profile_txt {flex:1;width:auto;height:200px;overflow-y:scroll;-webkit-overflow-scrolling: touch;}
     #full .profile_txt h2 {font-size:24px;font-weight:300;margin-bottom:20px;font-family: 'Audiowide', cursive;text-align:left;}
     #full .profile_txt p {margin-bottom:20px;line-height:1.4;text-align:left;}
     #full .profile_txt progress {width:60px;}
