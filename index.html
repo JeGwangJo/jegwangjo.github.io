@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/slick.css">
-    <link rel="stylesheet" href="/assets/css/fullpage.min.css">
-    <link rel="stylesheet" href="/assets/css/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="/main.css">    
-    <script src="/assets/js/jquery-1.12.4.js"></script>
-    <script src="/assets/js/slick.min.js"></script>
-    <script src="/assets/js/fullpage.min.js"></script>
-    <script src="/assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/fullpage.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./main.css">    
+    <script src="./assets/js/jquery-1.12.4.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/fullpage.min.js"></script>
+    <script src="./assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./main.js"></script>
     <title>조제광</title>
 </head>
 <body>
@@ -23,15 +23,17 @@
         <nav>
             <ul class="gnb">
                 <li class="on"><a href="#m01">intro</a></li>
-                <li><a href="#m02">pf1</a></li>
-                <li><a href="#m03">pf6</a></li>                
+                <li><a href="#m02">BEST_video</a></li>
+                <li><a href="#m03">video_01</a></li>                
+                <li><a href="#m04">video_02</a></li>
+                <li><a href="#m04">video_slider</a></li>
                 <li><a href="#m04">outro</a></li>
             </ul>
         </nav>
     </header>
     <div id="myWeb">
         <!--intro page-->
-        <section class="section m01">
+        <section class="section m00">
             <h2>JK's portfolio 2021</h2>
             <p>안녕하세요 제 포트폴리오 페이지에 오신것을 환영합니다.<br> 
                 직접 제작한 각종 영상을 보실 수 있습니다.<br>
@@ -39,8 +41,8 @@
             </p>
             <div id="intro" class="player" data-property="{videoURL:'https://youtu.be/EZ7la-hMNuk'}">My video</div>
         </section>
-        <!--portfolio main-->
-        <section class="section m02">
+        <!--portfolio_01-->
+        <section class="section m01">
             <div class="container">
                 <div class="mockup">
                     <figure>
@@ -52,13 +54,13 @@
                     <div class="description">
                         <h3># Travel Vlog</h3>
                         <p>
-                            거제도에서 수국을 만나보기 위한 여행.<br>
-                            장마철에 떠나는 여행이라 고생을 했지만 잠시 비가 그쳤을때 느낄 수 있는 작은 감동과 풍경들을 함께 만나보시죠
+                            사전 계획한 장소에서 촬영, BGM에 맞춰 컷편집, 자막으로 설명 삽입
                         </p>
                         <ul class="spec">
                             <li><strong><i class="xi-camera-o">&nbsp;</i></strong>Galaxy S10e</li>
                             <li><strong><i class="xi-adobe">&nbsp;</i></strong>Adobe Premiere & Aftereffect</li>
-                            <li><strong><i class="xi-map-o">&nbsp;</i></strong>Geojedo</li>
+                            <li><strong><i class="xi-font">&nbsp;</i></strong>카페24 써라운드</li>
+                            <li><strong><i class="xi-music">&nbsp;</i></strong><a href="https://studio.youtube.com/channel/UCd8kjg6U3sSJx7rBd8JYYyA/music" target="_blank">Bumper Tag - John Deley</li>
                         </ul>
                         <i class="xi-play"></i>
                         <i class="xi-pause"></i>
@@ -67,144 +69,108 @@
                 </div>
             </div>
         </section>
-        <!--video slider-->
+         <!--portfolio_02-->
+        <section class="section m02">
+            <div class="container">
+                <div class="mockup">
+                    <figure>
+                        <div class="portfolio_02"></div>
+                        <div id="portfolio_02" class="player" data-property="{videoURL:'https://youtu.be/11bvP7Bf1TY'}"></div>
+                    </figure>
+                </div>
+                <div class="txt">
+                    <div class="description">
+                        <h3># Brand logo design</h3>
+                        <p>
+                            로고 선정, 로고에 맞는 이미지 서칭, 에펙에서 포지션과 3d 카메라를 이용한 모션,
+                            파티클을 이용한 폭죽효과
+                        </p>
+                        <ul class="spec">
+                            <li><strong><i class="xi-camera-o">&nbsp;</i></strong>Galaxy S10e</li>
+                            <li><strong><i class="xi-adobe">&nbsp;</i></strong>Adobe Premiere & Aftereffect</li>
+                            <li><strong><i class="xi-font">&nbsp;</i></strong>YiSunShin</li>
+                            <li><strong><i class="xi-music">&nbsp;</i></strong><a href="https://youtu.be/qiaec5VILfg" target="_blank">벚꽃 </li>
+                        </ul>
+                        <i class="xi-play"></i>
+                        <i class="xi-pause"></i>
+                        <a href="https://www.youtube.com/watch_popup?v=11bvP7Bf1TY" target="_blank"><i class="xi-overscan"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--portfolio_03-->
         <section class="section m03">
+            <div class="container">
+                <div class="mockup">
+                    <figure>
+                        <div class="portfolio_03"></div>
+                        <div id="portfolio_03" class="player" data-property="{videoURL:'https://youtu.be/AKE5Tumxi00'}"></div>
+                    </figure>
+                </div>
+                <div class="txt">
+                    <div class="description">
+                        <h3># Motion graphic</h3>
+                        <p>
+                            일러스트레이터로 구성요소 디자인, 에펙에서 Transform을 이용한 모션 구현
+                        </p>
+                        <ul class="spec">
+                            <li><strong><i class="xi-adobe">&nbsp;</i></strong>Adobe Premiere & Aftereffect</li>
+                            <li><strong><i class="xi-font">&nbsp;</i></strong>Silkscreen</li>
+                        </ul>
+                        <i class="xi-play"></i>
+                        <i class="xi-pause"></i>
+                        <a href="https://www.youtube.com/watch_popup?v=AKE5Tumxi00" target="_blank"><i class="xi-overscan"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--video slider-->
+        <section class="section m04">
                 <div class="video_slider">
                     <figure>
-                        <div id="pf_video_01"></div>
-                        <div class="slider_txt">
-                            <h3># Motion graphic</h3>
-                            <p>
-                            <strong><i class="xi-label-o">&nbsp;</i></strong>일러스트레이터로 구성요소 디자인, 에펙에서 Transform을 이용한 모션 구현<br><br>
-                            <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & illustrator<br>
-                            <strong><i class="xi-font">&nbsp;</i></strong>Silkscreen
-                            </p>
-                        <div class="slide_icon1">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/AKE5Tumxi00 " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L7OHcBdM6Lk?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_01" class="player" data-property="{videoURL:'https://youtu.be/AKE5Tumxi00'}"></div>
                     </figure>
-                    
                     <figure>
-                        <div id="pf_video_02"></div>
-                        <div class="slider_txt">
-                            <h3># Title sequence "Vincenzo"</h3>
-                            <p>
-                                <strong><i class="xi-label-o">&nbsp;</i></strong>포토샵으로 구성 요소 제작, 에펙으로 Transform을 이용한 모션 구현<br><br>
-                                <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & Photoshop<br>
-                                <strong><i class="xi-font">&nbsp;</i></strong>Impact, 휴먼중간샘체, ON 석보상절<br>
-                                <strong><i class="xi-music">&nbsp;</i></strong><a href="https://youtu.be/_JDBJaZHuMk" target="_blank">Aakash Gandhi - Journeyman</a>    
-                                </p>
-                        <div class="slide_icon2">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/o_tXKDUapOU " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/11bvP7Bf1TY?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_02" class="player" data-property="{videoURL:'https://youtu.be/o_tXKDUapOU'}"></div>
                     </figure>
-                    
                     <figure>
-                        <div id="pf_video_03"></div>
-                        <div class="slider_txt">
-                            <h3># Brand logo design</h3>
-                            <p>
-                                <strong><i class="xi-label-o">&nbsp;</i></strong>로고를 표현할 수 있는 영상 촬영, 모션트래킹을 이용한 로고 표시<br><br>
-                                <strong><i class="xi-camera-o">&nbsp;</i></strong>Galaxy S10e<br>
-                                <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & Photoshop<br>
-                                <strong><i class="xi-font">&nbsp;</i></strong>BMDOHYEON<br>
-                                <strong><i class="xi-music">&nbsp;</i></strong><a href="https://youtu.be/-qn37HKzJBw" target="_blank">바나나 </a>    
-                                </p>
-                        <div class="slide_icon3">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/11bvP7Bf1TY " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AKE5Tumxi00?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_03" class="player" data-property="{videoURL:'https://youtu.be/11bvP7Bf1TY'}"></div>
                     </figure>
-                    
                     <figure>
-                        <div id="pf_video_04"></div>
-                        <div class="slider_txt">
-                            <h3># Daily Vlog</h3>
-                            <p>
-                                <strong><i class="xi-label-o">&nbsp;</i></strong>1인칭 시점에서 보는 나의 하루, BGM에 맞게 컷편집, 분위기에 맞는 자막 사용<br><br>
-                                <strong><i class="xi-camera-o">&nbsp;</i></strong>Galaxy S10e<br>
-                                <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & Primiere Pro<br>
-                                <strong><i class="xi-font">&nbsp;</i></strong>나눔손글씨 곰신체<br>
-                                <strong><i class="xi-music">&nbsp;</i></strong><a href="https://youtu.be/nt0SQi8Crvs" target="_blank">용과 </a>    
-                                </p>
-                        <div class="slide_icon4">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/gy_rkuNiRG0 " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/o_tXKDUapOU?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_04" class="player" data-property="{videoURL:'https://youtu.be/gy_rkuNiRG0'}"></div>
                     </figure>
-                    
                     <figure>
-                        <div id="pf_video_05"></div>
-                        <div class="slider_txt">
-                            <h3># Travel Vlog</h3>
-                            <p>
-                                <strong><i class="xi-label-o">&nbsp;</i></strong>사전 계획한 장소에서 촬영, BGM에 맞춰 컷편집, 자막으로 설명 삽입<br><br>
-                                <strong><i class="xi-camera-o">&nbsp;</i></strong>Galaxy S10e<br>
-                                <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & Primiere Pro<br>
-                                <strong><i class="xi-font">&nbsp;</i></strong>나눔손글씨 곰신체, 나눔손글씨 펜<br>
-                                <strong><i class="xi-music">&nbsp;</i></strong><a href="https://youtu.be/28jrf2BMNhU" target="_blank">블루프 - Raining Love </a>    
-                                </p>
-                        <div class="slide_icon5">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/L7OHcBdM6Lk " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gy_rkuNiRG0?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_05" class="player" data-property="{videoURL:'https://youtu.be/L7OHcBdM6Lk'}"></div>
                     </figure>
-                    
                     <figure>
-                        <div id="pf_video_06"></div>
-                        <div class="slider_txt">
-                            <h3># Unboxing video</h3>
-                            <p>
-                                <strong><i class="xi-label-o">&nbsp;</i></strong>사전 계획한 장소에서 촬영, BGM에 맞춰 컷편집, 자막으로 설명 삽입<br><br>
-                                <strong><i class="xi-camera-o">&nbsp;</i></strong>Galaxy S10e<br>
-                                <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & Primiere Pro<br>
-                                <strong><i class="xi-font">&nbsp;</i></strong>카페24 써라운드<br>
-                                <strong><i class="xi-music">&nbsp;</i></strong><a href="https://studio.youtube.com/channel/UCd8kjg6U3sSJx7rBd8JYYyA/music" target="_blank">Bumper Tag - John Deley </a>    
-                                </p>
-                        <div class="slide_icon6">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/s5jByiOuSzM " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s5jByiOuSzM?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_06" class="player" data-property="{videoURL:'https://youtu.be/s5jByiOuSzM'}"></div>
                     </figure>
-                    
                     <figure>
-                        <div id="pf_video_07"></div>
-                        <div class="slider_txt">
-                            <h3># 3D logo animation</h3>
-                            <p>
-                                <strong><i class="xi-label-o">&nbsp;</i></strong>로고 선정, 로고에 맞는 이미지 서칭, 에펙에서 포지션과 3d 카메라를 이용한 모션,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;파티클을 이용한 폭죽효과<br><br>
-                                <strong><i class="xi-adobe">&nbsp;</i></strong>Adobe AfterEffects & Primiere Pro<br>
-                                <strong><i class="xi-font">&nbsp;</i></strong>YiSunShin<br>
-                                <strong><i class="xi-music">&nbsp;</i></strong><a href="https://youtu.be/qiaec5VILfg" target="_blank">벚꽃 </a>    
-                                </p>
-                        <div class="slide_icon7">
-                            <i class="xi-play"></i>
-                            <i class="xi-pause"></i>
-                            <a href="https://youtu.be/MGw01nhBzH4 " target="_blank"><i class="xi-youtube"></i></a>
+                        <div class="video">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/MGw01nhBzH4?autoplay=1&mute=1&loop=1" frameborder="0"></iframe>
                         </div>
-                        <div id="video_07" class="player" data-property="{videoURL:'https://youtu.be/MGw01nhBzH4'}"></div>
                     </figure>
+                </div>
                     
-                    </div>
+                    
                     <i class="xi-angle-left-thin"></i>
                     <i class="xi-angle-right-thin"></i>
         </section>
 
-        <section class="section fp-auto-height m04">
+        <section class="section fp-auto-height m05">
                 <div class="container">
                     <div class="s_profile">
                         <h2>Chojekwang</h2>
@@ -234,10 +200,12 @@
                     <div>
                     <h2>Chojekwang</h2>
                     <ul class="gnb">
-                        <li><a href="#m01">Intro</a></li>
-                        <li><a href="#m02">Main_video</a></li>
-                        <li><a href="#m03">Video_slide</a></li>
-                        <li><a href="#m04">Contact</a></li>
+                        <li><a href="#m00">Intro</a></li>
+                        <li><a href="#m01">BEST_video</a></li>
+                        <li><a href="#m02">video_01</a></li>
+                        <li><a href="#m03">video_02</a></li>
+                        <li><a href="#m04">Video_slide</a></li>
+                        <li><a href="#m05">Contact</a></li>
                     </ul>
                     </div>
                 </div>
@@ -272,7 +240,7 @@
         <div class="copyright">
             &copy Chojekwang
         </div>
-        <a href="#m01">
+        <a href="#m00">
             <i class="xi-arrow-up"></i>
         </a>
     </footer>
