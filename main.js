@@ -111,7 +111,16 @@ $("#header i, .m05 img").on("click", function(){
 $("#full i , #full a").on("click", function(){
     $("#full").removeClass("on")
 })
-
+    
+    
+$(".profile_txt").on("touchstart",function(){
+  fullpage_api.setAllowScrolling(false);
+}); 
+$(".profile_txt").on("touchend",function(){
+  fullpage_api.setAllowScrolling(true);
+});  
+     
+   
 
 /////////////////////end/////////////////////
 });
