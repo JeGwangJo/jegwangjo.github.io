@@ -27,6 +27,7 @@ $("#portfolio_01").YTPlayer({
     showControls:false,
     optimizeDisplay:false,
     realfullscreen:true,
+    playOnlyIfVisible:true,
 });
 $(".m01 .xi-pause").on("click",function(){
     $('#portfolio_01').YTPPause();
@@ -34,7 +35,6 @@ $(".m01 .xi-pause").on("click",function(){
 $(".m01 .xi-play").on("click",function(){
     $('#portfolio_01').YTPPlay();
 });
-
 $('.m01 .xi-volume-up').on("click",function(){
     $('#portfolio_01').YTPToggleVolume();
 })
@@ -48,6 +48,7 @@ $("#portfolio_02").YTPlayer({
     showControls:false,
     optimizeDisplay:false,
     realfullscreen:true,
+    playOnlyIfVisible:true,
 });
 $(".m02 .xi-pause").on("click",function(){
     $('#portfolio_02').YTPPause();
@@ -55,6 +56,10 @@ $(".m02 .xi-pause").on("click",function(){
 $(".m02 .xi-play").on("click",function(){
     $('#portfolio_02').YTPPlay();
 });
+$('.m02 .xi-volume-up').on("click",function(){
+    $('#portfolio_01').YTPToggleVolume();
+})
+
 
 //pofol video control 03
 $("#portfolio_03").YTPlayer({
@@ -64,6 +69,7 @@ $("#portfolio_03").YTPlayer({
     showControls:false,
     optimizeDisplay:false,
     realfullscreen:true,
+    playOnlyIfVisible:true,
 });
 $(".m03 .xi-pause").on("click",function(){
     $('#portfolio_03').YTPPause();
@@ -71,6 +77,9 @@ $(".m03 .xi-pause").on("click",function(){
 $(".m03 .xi-play").on("click",function(){
     $('#portfolio_03').YTPPlay();
 });
+$('.m03 .xi-volume-up').on("click",function(){
+    $('#portfolio_01').YTPToggleVolume();
+})
 
 
 //video_slider 슬라이드
@@ -92,14 +101,6 @@ $(".video_slider").slick({
       ]
 });
 
-//video01
-$("#video01").YTPlayer({
-    containment:'self',
-    autoPlay:false,
-    mute:true,
-    showControls:true,
-    optimizeDisplay:false,
-});
 
 $(".m04 i.xi-angle-left-thin").on("click",function(){
     $(".video_slider").slick("slickPrev")
@@ -118,10 +119,10 @@ $("#full i , #full a").on("click", function(){
 })
 
 
-$(".xi-bars").click(function(){
+$("#header .xi-bars").click(function(){
     $.fn.fullpage.setAllowScrolling(false);
 })
-$(".xi-close").click(function(){
+$("#full .xi-close, #full a").click(function(){
     $.fn.fullpage.setAllowScrolling(true);
 })
 
