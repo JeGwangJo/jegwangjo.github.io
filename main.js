@@ -29,10 +29,10 @@ $("#portfolio_01").YTPlayer({
     realfullscreen:true,
     playOnlyIfVisible:true,
 });
-$(".m01 .xi-pause").on("click",function(){
+$(".m01 .xi-pause").click(function(){
     $('#portfolio_01').YTPPause();
 });
-$(".m01 .xi-play").on("click",function(){
+$(".m01 .xi-play").click(function(){
     $('#portfolio_01').YTPPlay();
 });
 $('.m01 .xi-volume-up').on("click",function(){
