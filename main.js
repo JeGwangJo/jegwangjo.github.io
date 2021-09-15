@@ -92,6 +92,8 @@ $(".video_slider").slick({
     mute:true,
     slidesToShow: 1,
     autoplay: true,
+    draggable : true, 
+    swipeToSlide: true,
     autoplaySpeed: 3000,
     // centerMode:true,
     responsive: [
