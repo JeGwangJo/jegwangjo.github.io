@@ -112,7 +112,12 @@ $("#full i , #full a").on("click", function(){
     $("#full").removeClass("on")
 })
     
-
+$(".xi-bars").click(function(){
+    $.fn.fullpage.setAllowScrolling(false);
+})
+$(".xi-close").click(function(){
+    $.fn.fullpage.setAllowScrolling(true);
+})
    
 
 /////////////////////end/////////////////////
