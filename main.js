@@ -90,7 +90,7 @@ $(".video_slider").slick({
     arrows:false,
     dots:true,
     mute:true,
-    slidesToShow: 2,
+    slidesToShow: 1,
     autoplay: true,
     autoplaySpeed: 3000,
     // centerMode:true,
