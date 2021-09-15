@@ -35,6 +35,11 @@ $(".m01 .xi-play").on("click",function(){
     $('#portfolio_01').YTPPlay();
 });
 
+$('.m01 .xi-volume-up').on("click",function(){
+    $('#portfolio_01').YTPUnmute();
+})
+
+
 //pofol video control 02
 $("#portfolio_02").YTPlayer({
     containment:'.portfolio_02',
@@ -111,14 +116,14 @@ $("#header i, .m05 img").on("click", function(){
 $("#full i , #full a").on("click", function(){
     $("#full").removeClass("on")
 })
-    
+
+
 $(".xi-bars").click(function(){
     $.fn.fullpage.setAllowScrolling(false);
 })
 $(".xi-close").click(function(){
     $.fn.fullpage.setAllowScrolling(true);
 })
-   
 
 /////////////////////end/////////////////////
 });
