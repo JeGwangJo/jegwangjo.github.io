@@ -36,7 +36,7 @@ $(".m01 .xi-play").on("click",function(){
 });
 
 $('.m01 .xi-volume-up').on("click",function(){
-    $('#portfolio_01').YTPUnmute();
+    $('#portfolio_01').YTPToggleVolume();
 })
 
 
