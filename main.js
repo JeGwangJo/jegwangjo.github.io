@@ -37,6 +37,7 @@ $(".m01 .xi-play").click(function(){
 });
 $('.m01 .xi-volume-up').on("click",function(){
     $('#portfolio_01').YTPToggleVolume();
+    $(this).toggleClass("on")
 })
 
 
@@ -57,7 +58,8 @@ $(".m02 .xi-play").on("click",function(){
     $('#portfolio_02').YTPPlay();
 });
 $('.m02 .xi-volume-up').on("click",function(){
-    $('#portfolio_01').YTPToggleVolume();
+    $('#portfolio_02').YTPToggleVolume();
+    $(this).toggleClass("on")
 })
 
 
@@ -78,7 +80,8 @@ $(".m03 .xi-play").on("click",function(){
     $('#portfolio_03').YTPPlay();
 });
 $('.m03 .xi-volume-up').on("click",function(){
-    $('#portfolio_01').YTPToggleVolume();
+    $('#portfolio_03').YTPToggleVolume();
+    $(this).toggleClass("on")
 })
 
 

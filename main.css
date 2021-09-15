@@ -61,9 +61,11 @@ body {font-family:'Open Sans', 'Noto Sans KR', sans-serif;color:#fff;}
 .m01 .txt p {font-size:14px;font-weight:300;margin-bottom:30px;line-height:1.4;}
 .m01 .txt ul {line-height:1.4;margin-bottom:30px;}
 .m01 .description>i {font-size:40px;color:#fff;border:5px solid #AE00FB;padding:10px;border-radius:5px;margin-right:15px;}
+.m01 .description>i.on {color:#AE00FB}
 .m01 .description a i {font-size:40px;color:#fff;border:5px solid #AE00FB;padding:10px;border-radius:5px;margin-right:15px;}
 
-/*responsive_m01*/
+
+/*responsive_m01*/  
 @media (max-width:768px) {
     .m01 {background:#18151e url(./assets/img/bg01.png);position:relative;height:100vh;}
     .m01 .container {display:flex;flex-direction:column;width:auto;margin:0 auto;padding:30px 30px 0 30px;}
@@ -89,7 +91,9 @@ body {font-family:'Open Sans', 'Noto Sans KR', sans-serif;color:#fff;}
 .m02 .txt p {font-size:14px;font-weight:300;margin-bottom:30px;line-height:1.4;}
 .m02 .txt ul {line-height:1.4;margin-bottom:30px;}
 .m02 .description>i {font-size:40px;color:#fff;border:5px solid #AE00FB;padding:10px;border-radius:5px;margin-right:15px;}
+.m02 .description>i.on {color:#AE00FB}
 .m02 .description a i {font-size:40px;color:#fff;border:5px solid #AE00FB;padding:10px;border-radius:5px;margin-right:15px;}
+.m02 .description a i.on {color:#AE00FB}
 
 /*re_m02*/
 @media (max-width:768px) {
@@ -117,7 +121,9 @@ body {font-family:'Open Sans', 'Noto Sans KR', sans-serif;color:#fff;}
 .m03 .txt p {font-size:14px;font-weight:300;margin-bottom:30px;line-height:1.4;}
 .m03 .txt ul {line-height:1.4;margin-bottom:30px;}
 .m03 .description>i {font-size:40px;color:#fff;border:5px solid #AE00FB;padding:10px;border-radius:5px;margin-right:15px;}
+.m03 .description>i.on {color:#AE00FB}
 .m03 .description a i {font-size:40px;color:#fff;border:5px solid #AE00FB;padding:10px;border-radius:5px;margin-right:15px;}
+.m03 .description a i.on {color:#AE00FB}
 
 /*responsive_m03*/
 @media (max-width:768px) {
